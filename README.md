@@ -24,7 +24,7 @@ in the htmil body add the following scripts
 
 ```
 
-<script src="https://konfigs.github.io/form-eidt-widget/index.js"></script>
+<script src="https://konfigs.github.io/form-edit-config/index.js"></script>
 
     <script>
       window.addEventListener("DOMContentLoaded", function (event) {
