@@ -6,15 +6,6 @@ This is an example that demonstrates how the form-edit-widget can be used in our
 
 ## run npm start
 
-## Add Confguration data
-
-In src/app.js you need to add api-key, node-id and application-id
-
-```
-
-<div id="enki-widget" api-key="YOUR_APIKEY" node-id="YOUR-NODE-ID" application-id="YOUR-APPLICATION-ID" ></div>
-
-```
 
 # To embed the widget in your react app do the following
 
@@ -24,7 +15,7 @@ in the html body add the following scripts
 
 ```
 
-<script src="https://konfigs.github.io/form-eidt-widget/index.js"></script>
+<script src="https://konfigs.github.io/form-edit-config/index.js"></script>
 
     <script>
       window.addEventListener("DOMContentLoaded", function (event) {
@@ -45,7 +36,7 @@ function WidgetComponent() { useEffect(() => { window.activateFormEditWidget(); 
 
 ```
 
-### Add the html element fot the widget
+### Add the html element for the widget
 
 Then add
 
