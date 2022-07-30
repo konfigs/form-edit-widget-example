@@ -6,7 +6,6 @@ This is an example that demonstrates how the form-edit-widget can be used in our
 
 ## run npm start
 
-
 # To embed the widget in your react app do the following
 
 ## widget script
@@ -29,7 +28,7 @@ in the html body add the following scripts
 
 ### First add the useEffect
 
-To initiate  the widget call window.activateFormEditWidget(); inside your component
+To initiate the widget call window.activateFormEditWidget(); inside your component
 
 ```
 function WidgetComponent() { useEffect(() => { window.activateFormEditWidget(); }, []);
@@ -38,7 +37,7 @@ function WidgetComponent() { useEffect(() => { window.activateFormEditWidget(); 
 
 ### Add the html element for the widget
 
-Then add
+To show the configuration of one collection add a div with node-id
 
 ```
 
@@ -51,7 +50,19 @@ Then add
 
 ```
 
-## The code will look like this
+To show all the collection in one application remove the node-id from the dev
+
+```
+
+<div
+  id="form-edit-config"
+  api-key="YOUR-APIKEY"
+  application-id="YOUR-APPLICATION-ID"
+></div>
+
+```
+
+## The code inside the componenet will look like this
 
 ```
 
